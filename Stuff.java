@@ -7,7 +7,7 @@ public class Stuff{
             System.out.print("enter a number to check if its an Armstrong number or not: ");
             Scanner in = new Scanner(System.in);
             int num;
-            num = in.nextInt();
+            num = in.nextInt(); //takes num as input
             int num2 = num;
             int a = 0;
             while(num>0){
